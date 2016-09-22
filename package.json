@@ -28,12 +28,12 @@
     "@angular/common": "^2.0.0",
     "@angular/core": "^2.0.0",
     "@angular/forms": "^2.0.0",
-    "@types/validator": "^4.5.28",
     "rxjs": "^5.0.0-beta.12",
     "validator": "^5.7.0",
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
+    "@types/validator": "^4.5.28",
     "tslint": "^3.15.1",
     "typescript": "^2.0.2"
   }
