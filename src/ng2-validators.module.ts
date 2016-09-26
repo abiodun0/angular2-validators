@@ -97,4 +97,4 @@ let Validators = [
   declarations: Validators,
   exports: Validators
 })
-export class Ng2ValidatorsModule { }
+export default class Ng2ValidatorsModule { }
