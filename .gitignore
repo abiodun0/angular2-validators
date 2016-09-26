@@ -16,7 +16,8 @@
 .classpath
 *.launch
 .settings/
-*.js
+src/*.js
+test/*.js
 # misc
 /.sass-cache
 /connect.lock
