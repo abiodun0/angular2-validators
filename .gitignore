@@ -16,7 +16,8 @@
 .classpath
 *.launch
 .settings/
-
+src/*.js
+test/*.js
 # misc
 /.sass-cache
 /connect.lock
@@ -25,7 +26,7 @@
 npm-debug.log
 testem.log
 /typings
-
+*.map
 # e2e
 /e2e/*.js
 /e2e/*.map
