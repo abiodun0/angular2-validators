@@ -1,6 +1,9 @@
 {
-  "name": "angular-quickstart",
-  "version": "1.0.0",
+ "name": "angular2-validators",
+  "version": "0.0.17-0",
+  "description": "",
+  "main": "",
+  "module": "",
   "scripts": {
     "postinstall": "typings install",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
@@ -8,7 +11,25 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "license": "ISC",
+  "keywords": [
+    "angular2",
+    "angular",
+    "validators"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangachris/angular2-validators"
+  },
+  "author": {
+    "name": "Christopher Ganga",
+    "email": "ganga.chris@gmail.com",
+    "url": "https://gangachris.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gangachris/angular2-validators/issues"
+  },
+  "homepage": "https://github.com/gangachris/angular2-validators#readme",
+  "license": "MIT",
   "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
