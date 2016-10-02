@@ -1,7 +1,7 @@
 // #docregion
 module.exports = function(config) {
 
-  var appBase    = 'src/';       // transpiled app JS and map files
+  var appBase    = 'build/src/';       // transpiled app JS and map files
   var appSrcBase = 'src/';       // app source TS files
   var appAssets  = '/base/src/'; // component assets fetched by Angular's compiler
 
