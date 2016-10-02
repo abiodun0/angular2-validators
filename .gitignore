@@ -16,7 +16,7 @@
 .classpath
 *.launch
 .settings/
-src/*.js
+/build
 test/*.js
 # misc
 /.sass-cache
