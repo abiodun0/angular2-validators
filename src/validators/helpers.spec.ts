@@ -1,7 +1,8 @@
-// import * as helper from './helpers';
+import * as helper from './helpers';
 
-// describe('test helpers', () => {
-//     it('shold test for exported function', () => {
-//         console.log(helper, 'the helper class')
-//     })
-// })
+describe('getValidator', () => {
+    it('sholund retunr a function', () => {
+       const getValidatorFunciton = helper.getValidator('named');
+       expect(typeof getValidatorFunciton).toEqual('function');
+    })
+})
