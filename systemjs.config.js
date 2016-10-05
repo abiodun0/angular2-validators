@@ -23,11 +23,9 @@
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.js',
-
-      'validator': 'npm:validator',
-
       // other libraries
       'rxjs':                      'npm:rxjs',
+      'validator':                 'npm:validator',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api',
     },
     // packages tells the System loader how to load when no filename and/or no extension
@@ -40,6 +38,7 @@
         defaultExtension: 'js'
       },
       validator: {
+         main: './index.js',
         defaultExtension: 'js'
       },
       'angular-in-memory-web-api': {
